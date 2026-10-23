@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local model weights and runtime data
+models/
+
+# macOS and editor metadata
+.DS_Store
+.vscode/
+.idea/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
